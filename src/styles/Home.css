@@ -1,3 +1,85 @@
 body {
   background-color: #ecf0f1;
 }
+
+.offer {
+  position: absolute;
+  top: 35%;
+  font-weight: 1000;
+  margin-left: 75px;
+}
+
+.offer h2 {
+  color: green;
+  font-weight: 1000;
+  font-size: 2.8rem;
+}
+
+.offer h1 {
+  font-size: 3rem;
+}
+.offer p {
+  font-size: 2rem;
+}
+
+.offer button {
+  display: block;
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  background: #333;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px solid #333;
+  transition: all 0.35s;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border: 3px solid transparent;
+  position: absolute;
+  transform: rotate(45deg);
+  right: 0;
+  top: 0;
+  z-index: -1;
+  transition: all 0.35s;
+}
+
+.icon svg {
+  width: 30px;
+  position: absolute;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
+  transform: rotate(-45deg);
+  fill: #2ecc71;
+  transition: all 0.35s;
+}
+
+button:hover {
+  width: 200px;
+  border: 3px solid #2ecc71;
+  background: transparent;
+  color: #2ecc71;
+}
+
+button:hover + .icon {
+  border: 3px solid #2ecc71;
+  right: -25%;
+  cursor: pointer;
+}
+
+.link_wrapper {
+  position: relative;
+}
+
+.wrapper {
+  position: fixed;
+  top: 75%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+}
