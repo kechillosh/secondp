@@ -22,19 +22,19 @@ function Navbar() {
         <Link className="navLink" to="/">
           Home
         </Link>
-        <Link className="navLink" to="/">
+        <Link className="navLink" to="/Shop">
           Shop
         </Link>
-        <Link className="navLink" to="/">
+        <Link className="navLink" to="/Blog">
           Blog
         </Link>
-        <Link className="navLink" to="/">
+        <Link className="navLink" to="/About">
           About
         </Link>
-        <Link className="navLink" to="/">
+        <Link className="navLink" to="/Contact">
           Contact
         </Link>
-        <Link className="navLink" to="/">
+        <Link className="navLink" to="/Cart">
           <SlBag />
         </Link>
       </div>
