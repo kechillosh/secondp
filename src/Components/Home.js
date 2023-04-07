@@ -1,9 +1,11 @@
 import React from "react";
 import "../styles/Home.css";
+import Model from "../assets/favpng_fashion-model-african-american-fashion-design.png";
 
 function Home() {
   return (
     <div className="Home">
+      <img src={Model} />
       <div className="offer">
         <h1>Welcome to our store!</h1>
         <h2>Super Offer</h2>
