@@ -6,7 +6,7 @@ import Blog from "./Components/Blog";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Cart from "./Components/Cart";
-
+import Navbar from "./Components/Navbar";
 function App() {
   return (
     <div className="App">
