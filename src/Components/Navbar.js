@@ -3,6 +3,9 @@ import logo from "../assets/Project.png";
 import "../styles/Navbar.css";
 import { Link } from "react-router-dom";
 import { SlBag } from "react-icons/sl";
+import { SlMenu } from "react-icons/sl";
+import DropdownMenu from "./DropdownMenu";
+import { TfiDribbble } from "react-icons/tfi";
 
 function Navbar() {
   return (
@@ -11,6 +14,9 @@ function Navbar() {
         <Link to="/">
           <img src={logo} />
         </Link>
+      </div>
+      <div className="mainDrop">
+        <DropdownMenu />
       </div>
       <div className="RightSide">
         <Link className="navLink" to="/">

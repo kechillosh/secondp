@@ -43,3 +43,71 @@
 a:hover {
   color: aqua;
 }
+
+.dropdown {
+  position: relative;
+  margin-left: auto;
+  margin-top: 25px;
+}
+
+.dropdown button {
+  border: none;
+  color: rgb(129, 17, 17);
+  cursor: pointer;
+}
+
+.dropdown ul {
+  position: absolute;
+  right: 0%;
+  top: 90%;
+  z-index: 2;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Style for the dropdown menu items */
+.dropdown li {
+  display: block;
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+  z-index: 2;
+  padding-left: 0;
+}
+
+ul {
+  margin-right: 40px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  width: 90%;
+  padding: 0;
+  display: block;
+  justify-content: left;
+  z-index: 2;
+}
+.dropdown button {
+  padding: 0;
+  margin-right: 10vh;
+  display: flex;
+  z-index: 2;
+}
+
+.dropdown li a {
+  font-size: 2vh;
+  z-index: 2;
+}
+.dropdown svg {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 860px) {
+  .Navbar .RightSide {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 860px) {
+  .Navbar .mainDrop {
+    display: none;
+  }
+}
