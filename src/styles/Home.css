@@ -64,7 +64,7 @@
   transition: all 0.35s;
 }
 
-button:hover {
+.link_wrapper button:hover {
   width: 200px;
   border: 3px solid #2ecc71;
   background: transparent;
@@ -72,7 +72,7 @@ button:hover {
   cursor: pointer;
 }
 
-button:hover + .icon {
+.link_wrapper button:hover + .icon {
   border: 3px solid #2ecc71;
   right: -25%;
   cursor: pointer;
@@ -92,8 +92,25 @@ button:hover + .icon {
 
 .first img {
   margin-top: 5vh;
-
-  max-width: 1000px;
+  max-width: 100%;
   width: 550px;
-  margin-left: 60%;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.Feature {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 5vh;
+}
+
+.Feature div {
+  width: 30%;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+  border: 1px solid #d0d3d4;
+  height: 15vh;
+  margin-bottom: 5vh;
 }
