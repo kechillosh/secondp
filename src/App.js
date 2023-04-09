@@ -7,6 +7,8 @@ import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Cart from "./Components/Cart";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
+
 function App() {
   return (
     <div className="App">

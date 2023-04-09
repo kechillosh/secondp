@@ -4,7 +4,7 @@ import Model from "../assets/favpng_fashion-model-african-american-fashion-desig
 
 function Home() {
   return (
-    <div className="Home">
+    <section className="first">
       <img src={Model} />
       <div className="offer">
         <h1>Welcome to our store!</h1>
@@ -24,7 +24,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

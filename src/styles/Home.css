@@ -1,4 +1,4 @@
-body {
+.first {
   background-color: #d0d3d4;
 }
 
@@ -65,6 +65,7 @@ button:hover {
   border: 3px solid #2ecc71;
   background: transparent;
   color: #2ecc71;
+  cursor: pointer;
 }
 
 button:hover + .icon {
@@ -74,18 +75,21 @@ button:hover + .icon {
 }
 
 .link_wrapper {
-  position: relative;
+  position: absolute;
 }
 
 .wrapper {
-  position: fixed;
-  top: 75%;
+  position: absolute;
+  margin-top: 30px;
+  top: 100%;
   left: 13%;
   transform: translate(-50%, -50%);
 }
 
-.Home img {
+.first img {
   float: right;
   margin-top: 5vh;
   margin-right: 10vw;
+  max-width: 1000px;
+  width: 550px;
 }
