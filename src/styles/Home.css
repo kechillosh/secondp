@@ -1,5 +1,9 @@
 .first {
   background-color: #d0d3d4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
 .offer {
@@ -87,9 +91,9 @@ button:hover + .icon {
 }
 
 .first img {
-  float: right;
   margin-top: 5vh;
-  margin-right: 10vw;
+
   max-width: 1000px;
   width: 550px;
+  margin-left: 60%;
 }
