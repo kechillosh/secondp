@@ -106,11 +106,43 @@
 }
 
 .Feature div {
-  width: 30%;
+  width: 13%;
   text-align: center;
   padding: 25px 15px;
   box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
   border: 1px solid #d0d3d4;
   height: 15vh;
   margin-bottom: 5vh;
+}
+
+.Feature div h3 {
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+}
+
+.Feature div h3 {
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #088178;
+}
+
+.Feature .a {
+  background-color: #fddde4;
+}
+.Feature .b {
+  background-color: #cdebbc;
+}
+.Feature .c {
+  background-color: #d1e8f2;
+}
+.Feature .d {
+  background-color: #cdd4f8;
+}
+.Feature .e {
+  background-color: #f6dbf6;
+}
+.Feature .f {
+  background-color: #fff2e5;
 }

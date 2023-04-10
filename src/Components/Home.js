@@ -34,22 +34,27 @@ function Home() {
       <section className="Feature">
         <div>
           <img src={f1} alt="f1" />
-          <h3> Free shipping</h3>
+          <h3 className="a"> Free Shipping</h3>
         </div>
         <div>
           <img src={f2} alt="f2" />
+          <h3 className="b"> Online Order</h3>
         </div>
         <div>
           <img src={f3} alt="f3" />
+          <h3 className="c"> Save Money</h3>
         </div>
         <div>
           <img src={f4} alt="f4" />
+          <h3 className="d"> Promotions</h3>
         </div>
         <div>
           <img src={f5} alt="f5" />
+          <h3 className="e"> Happy Sale</h3>
         </div>
         <div>
           <img src={f6} alt="f6" />
+          <h3 className="f"> 24/7 Support </h3>
         </div>
       </section>
     </div>
