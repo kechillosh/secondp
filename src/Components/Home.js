@@ -17,6 +17,10 @@ import F7 from "../Product img/f7.jpg";
 import F8 from "../Product img/f8.jpg";
 import { Link } from "react-router-dom";
 import { SlBag } from "react-icons/sl";
+import { SlStar } from "react-icons/sl";
+import { TbStarFilled } from "react-icons/tb";
+import { TbStarHalfFilled } from "react-icons/tb";
+import { SlBasket } from "react-icons/sl";
 
 function Home() {
   return (
@@ -77,17 +81,27 @@ function Home() {
             <div className="des">
               <span>adidas</span>
               <h3>Aloha Shirt</h3>
-              <div className="reviews">
-                <i className="star"></i>
-                <i className="star"></i>
-                <i className="star"></i>
-                <i className="star"></i>
-                <i className="star"></i>
-              </div>
+
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarHalfFilled />
+              </i>
+
               <h3>$78</h3>
             </div>
             <Link className="navLink" to="/Cart">
-              <SlBag />
+              <SlBasket className="bag" />
             </Link>
           </div>
         </div>
