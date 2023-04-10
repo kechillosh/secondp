@@ -7,6 +7,17 @@ import f3 from "../assets/f3.png";
 import f4 from "../assets/f4.png";
 import f5 from "../assets/f5.png";
 import f6 from "../assets/f6.png";
+import F1 from "../Product img/f1.jpg";
+import F2 from "../Product img/f2.jpg";
+import F3 from "../Product img/f3.jpg";
+import F4 from "../Product img/f4.jpg";
+import F5 from "../Product img/f5.jpg";
+import F6 from "../Product img/f6.jpg";
+import F7 from "../Product img/f7.jpg";
+import F8 from "../Product img/f8.jpg";
+import { Link } from "react-router-dom";
+import { SlBag } from "react-icons/sl";
+
 function Home() {
   return (
     <div className="container">
@@ -55,6 +66,30 @@ function Home() {
         <div>
           <img src={f6} alt="f6" />
           <h3 className="f"> 24/7 Support </h3>
+        </div>
+      </section>
+      <section className="product_1">
+        <h2> Featured Products</h2>
+        <p>Summer Collection New Modern Design</p>
+        <div className="product_container">
+          <div className="product">
+            <img src={F1} alt="" />
+            <div className="des">
+              <span>adidas</span>
+              <h3>Aloha Shirt</h3>
+              <div className="reviews">
+                <i className="star"></i>
+                <i className="star"></i>
+                <i className="star"></i>
+                <i className="star"></i>
+                <i className="star"></i>
+              </div>
+              <h3>$78</h3>
+            </div>
+            <Link className="navLink" to="/Cart">
+              <SlBag />
+            </Link>
+          </div>
         </div>
       </section>
     </div>
